@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <section id="rating-state" class="rating">
+        <div class="wrapper rating__wrapper">
+          <h1 class="rating__heading">Interactive rating component</h1>
+          <div class="rating__star-icon">
+            <img src="/img/icon-star.svg" alt="orange color star icon" />
+          </div>
+          <h2 class="rating__subheading">How did we do?</h2>
+          <p class="rating__text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <ol class="rating__numbers-wrapper">
+            <li class="rating__number-list">
+              <button type="button" class="rating__number">1</button>
+            </li>
+            <li class="rating__number-list">
+              <button type="button" class="rating__number">2</button>
+            </li>
+            <li class="rating__number-list">
+              <button type="button" class="rating__number">3</button>
+            </li>
+            <li class="rating__number-list">
+              <button type="button" class="rating__number">4</button>
+            </li>
+            <li class="rating__number-list">
+              <button type="button" class="rating__number">5</button>
+            </li>
+          </ol>
+          <button type="button" class="rating__submit-btn">Submit</button>
+        </div>
+      </section>
+      <section id="thank-you-state" class="finish-rating">
+        <div class="wrapper finish-rating__wrapper">
+          <img
+            src="/img/illustration-thank-you.svg"
+            alt="thank you receipt illustration"
+          />
+          <div class="finish-rating__number-selected-wrapper">
+            <p>
+              You selected
+              <span class="finish-rating__number-selected"></span> out of 5
+            </p>
+          </div>
+          <h2 class="finish-rating__subheading">Thank you!</h2>
+          <p class="finish-rating__text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don't hesitate to get in touch!
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
