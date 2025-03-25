@@ -1,0 +1,47 @@
+@use '../util' as u;
+
+.finish-rating {
+  display: none;
+  &__wrapper {
+    padding-inline: clamp(1.5rem, -3.57rem + 21.62vw, 2rem);
+    padding-block: clamp(2rem, -3.07rem + 21.62vw, 2.5rem);
+    border-radius: 15px;
+    background-image: var(--radial-gradient);
+
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1.5rem, -3.57rem + 21.62vw, 2rem);
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    width: clamp(9rem, -2.4rem + 48.65vw, 10.125rem);
+    height: clamp(6rem, -1.6rem + 32.43vw, 6.75rem);
+  }
+  &__number-selected-wrapper {
+    padding-inline: 1rem;
+    height: 2rem;
+    background-color: var(--clr-grey-900);
+    border-radius: 22.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font: inherit;
+      font-size: 0.875rem;
+      font-size: clamp(0.875rem, 0.24rem + 2.7vw, 0.9375rem);
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--clr-orange-500);
+    }
+  }
+
+  &__text-wrapper {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+  }
+}
